@@ -6952,11 +6952,10 @@ run(function()
 					point2.Parent = ent.HumanoidRootPart
 					trail.Parent = gameCamera
 				end))
-				
+																																																																																																																																																																																				
+				pcall(createTrail)
+																																																																																																																																																																																					
 				repeat
-					if not trail or not trail.Parent then
-						pcall(createTrail)
-					end
 					if entitylib.isAlive then
 						point.Parent = lplr.Character.PrimaryPart
 						point2.Parent = lplr.Character.PrimaryPart
