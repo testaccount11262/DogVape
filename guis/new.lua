@@ -61,72 +61,72 @@ local init: () -> table = function()
 	}
 	
 	local getcustomassets = {
-		['newcatvape/assets/new/add.png'] = 'rbxassetid://14368300605',
-		['newcatvape/assets/new/alert.png'] = 'rbxassetid://14368301329',
-		['newcatvape/assets/new/allowedicon.png'] = 'rbxassetid://14368302000',
-		['newcatvape/assets/new/allowedtab.png'] = 'rbxassetid://14368302875',
-		['newcatvape/assets/new/arrowmodule.png'] = 'rbxassetid://14473354880',
-		['newcatvape/assets/new/back.png'] = 'rbxassetid://14368303894',
-		['newcatvape/assets/new/bind.png'] = 'rbxassetid://14368304734',
-		['newcatvape/assets/new/bindbkg.png'] = 'rbxassetid://14368305655',
-		['newcatvape/assets/new/blatanticon.png'] = 'rbxassetid://14368306745',
-		['newcatvape/assets/new/blockedicon.png'] = 'rbxassetid://14385669108',
-		['newcatvape/assets/new/blockedtab.png'] = 'rbxassetid://14385672881',
-		['newcatvape/assets/new/blur.png'] = 'rbxassetid://14898786664',
-		['newcatvape/assets/new/blurnotif.png'] = 'rbxassetid://16738720137',
-		['newcatvape/assets/new/close.png'] = 'rbxassetid://14368309446',
-		['newcatvape/assets/new/closemini.png'] = 'rbxassetid://14368310467',
-		['newcatvape/assets/new/colorpreview.png'] = 'rbxassetid://14368311578',
-		['newcatvape/assets/new/combaticon.png'] = 'rbxassetid://14368312652',
-		['newcatvape/assets/new/customsettings.png'] = 'rbxassetid://14403726449',
-		['newcatvape/assets/new/dots.png'] = 'rbxassetid://14368314459',
-		['newcatvape/assets/new/edit.png'] = 'rbxassetid://14368315443',
-		['newcatvape/assets/new/expandright.png'] = 'rbxassetid://14368316544',
-		['newcatvape/assets/new/expandup.png'] = 'rbxassetid://14368317595',
-		['newcatvape/assets/new/friendstab.png'] = 'rbxassetid://14397462778',
-		['newcatvape/assets/new/guisettings.png'] = 'rbxassetid://14368318994',
-		['newcatvape/assets/new/guislider.png'] = 'rbxassetid://14368320020',
-		['newcatvape/assets/new/guisliderrain.png'] = 'rbxassetid://14368321228',
-		['newcatvape/assets/new/guiv4.png'] = 'rbxassetid://14368322199',
-		['newcatvape/assets/new/guivape.png'] = 'rbxassetid://14657521312',
-		['newcatvape/assets/new/info.png'] = 'rbxassetid://14368324807',
-		['newcatvape/assets/new/inventoryicon.png'] = 'rbxassetid://14928011633',
-		['newcatvape/assets/new/legit.png'] = 'rbxassetid://14425650534',
-		['newcatvape/assets/new/legittab.png'] = 'rbxassetid://14426740825',
-		['newcatvape/assets/new/miniicon.png'] = 'rbxassetid://14368326029',
-		['newcatvape/assets/new/notification.png'] = 'rbxassetid://16738721069',
-		['newcatvape/assets/new/overlaysicon.png'] = 'rbxassetid://14368339581',
-		['newcatvape/assets/new/overlaystab.png'] = 'rbxassetid://14397380433',
-		['newcatvape/assets/new/pin.png'] = 'rbxassetid://14368342301',
-		['newcatvape/assets/new/profilesicon.png'] = 'rbxassetid://14397465323',
-		['newcatvape/assets/new/radaricon.png'] = 'rbxassetid://14368343291',
-		['newcatvape/assets/new/rainbow_1.png'] = 'rbxassetid://14368344374',
-		['newcatvape/assets/new/rainbow_2.png'] = 'rbxassetid://14368345149',
-		['newcatvape/assets/new/rainbow_3.png'] = 'rbxassetid://14368345840',
-		['newcatvape/assets/new/rainbow_4.png'] = 'rbxassetid://14368346696',
-		['newcatvape/assets/new/range.png'] = 'rbxassetid://14368347435',
-		['newcatvape/assets/new/rangearrow.png'] = 'rbxassetid://14368348640',
-		['newcatvape/assets/new/rendericon.png'] = 'rbxassetid://14368350193',
-		['newcatvape/assets/new/rendertab.png'] = 'rbxassetid://14397373458',
-		['newcatvape/assets/new/search.png'] = 'rbxassetid://14425646684',
-		['newcatvape/assets/new/expandicon.png'] = 'rbxassetid://14368353032',
-		['newcatvape/assets/new/targetinfoicon.png'] = 'rbxassetid://14368354234',
-		['newcatvape/assets/new/targetnpc1.png'] = 'rbxassetid://14497400332',
-		['newcatvape/assets/new/targetnpc2.png'] = 'rbxassetid://14497402744',
-		['newcatvape/assets/new/targetplayers1.png'] = 'rbxassetid://14497396015',
-		['newcatvape/assets/new/targetplayers2.png'] = 'rbxassetid://14497397862',
-		['newcatvape/assets/new/targetstab.png'] = 'rbxassetid://14497393895',
-		['newcatvape/assets/new/textguiicon.png'] = 'rbxassetid://14368355456',
-		['newcatvape/assets/new/textv4.png'] = 'rbxassetid://14368357095',
-		['newcatvape/assets/new/textvape.png'] = 'rbxassetid://14368358200',
-		['newcatvape/assets/new/utilityicon.png'] = 'rbxassetid://14368359107',
-		['newcatvape/assets/new/vape.png'] = 'rbxassetid://14373395239',
-		['newcatvape/assets/new/warning.png'] = 'rbxassetid://14368361552',
-		['newcatvape/assets/new/worldicon.png'] = 'rbxassetid://14368362492',
-		['newcatvape/assets/old/spotify.png'] = 'rbxassetid://129349257949035'
+		['dogvape/assets/new/add.png'] = 'rbxassetid://14368300605',
+		['dogvape/assets/new/alert.png'] = 'rbxassetid://14368301329',
+		['dogvape/assets/new/allowedicon.png'] = 'rbxassetid://14368302000',
+		['dogvape/assets/new/allowedtab.png'] = 'rbxassetid://14368302875',
+		['dogvape/assets/new/arrowmodule.png'] = 'rbxassetid://14473354880',
+		['dogvape/assets/new/back.png'] = 'rbxassetid://14368303894',
+		['dogvape/assets/new/bind.png'] = 'rbxassetid://14368304734',
+		['dogvape/assets/new/bindbkg.png'] = 'rbxassetid://14368305655',
+		['dogvape/assets/new/blatanticon.png'] = 'rbxassetid://14368306745',
+		['dogvape/assets/new/blockedicon.png'] = 'rbxassetid://14385669108',
+		['dogvape/assets/new/blockedtab.png'] = 'rbxassetid://14385672881',
+		['dogvape/assets/new/blur.png'] = 'rbxassetid://14898786664',
+		['dogvape/assets/new/blurnotif.png'] = 'rbxassetid://16738720137',
+		['dogvape/assets/new/close.png'] = 'rbxassetid://14368309446',
+		['dogvape/assets/new/closemini.png'] = 'rbxassetid://14368310467',
+		['dogvape/assets/new/colorpreview.png'] = 'rbxassetid://14368311578',
+		['dogvape/assets/new/combaticon.png'] = 'rbxassetid://14368312652',
+		['dogvape/assets/new/customsettings.png'] = 'rbxassetid://14403726449',
+		['dogvape/assets/new/dots.png'] = 'rbxassetid://14368314459',
+		['dogvape/assets/new/edit.png'] = 'rbxassetid://14368315443',
+		['dogvape/assets/new/expandright.png'] = 'rbxassetid://14368316544',
+		['dogvape/assets/new/expandup.png'] = 'rbxassetid://14368317595',
+		['dogvape/assets/new/friendstab.png'] = 'rbxassetid://14397462778',
+		['dogvape/assets/new/guisettings.png'] = 'rbxassetid://14368318994',
+		['dogvape/assets/new/guislider.png'] = 'rbxassetid://14368320020',
+		['dogvape/assets/new/guisliderrain.png'] = 'rbxassetid://14368321228',
+		['dogvape/assets/new/guiv4.png'] = 'rbxassetid://14368322199',
+		['dogvape/assets/new/guivape.png'] = 'rbxassetid://14657521312',
+		['dogvape/assets/new/info.png'] = 'rbxassetid://14368324807',
+		['dogvape/assets/new/inventoryicon.png'] = 'rbxassetid://14928011633',
+		['dogvape/assets/new/legit.png'] = 'rbxassetid://14425650534',
+		['dogvape/assets/new/legittab.png'] = 'rbxassetid://14426740825',
+		['dogvape/assets/new/miniicon.png'] = 'rbxassetid://14368326029',
+		['dogvape/assets/new/notification.png'] = 'rbxassetid://16738721069',
+		['dogvape/assets/new/overlaysicon.png'] = 'rbxassetid://14368339581',
+		['dogvape/assets/new/overlaystab.png'] = 'rbxassetid://14397380433',
+		['dogvape/assets/new/pin.png'] = 'rbxassetid://14368342301',
+		['dogvape/assets/new/profilesicon.png'] = 'rbxassetid://14397465323',
+		['dogvape/assets/new/radaricon.png'] = 'rbxassetid://14368343291',
+		['dogvape/assets/new/rainbow_1.png'] = 'rbxassetid://14368344374',
+		['dogvape/assets/new/rainbow_2.png'] = 'rbxassetid://14368345149',
+		['dogvape/assets/new/rainbow_3.png'] = 'rbxassetid://14368345840',
+		['dogvape/assets/new/rainbow_4.png'] = 'rbxassetid://14368346696',
+		['dogvape/assets/new/range.png'] = 'rbxassetid://14368347435',
+		['dogvape/assets/new/rangearrow.png'] = 'rbxassetid://14368348640',
+		['dogvape/assets/new/rendericon.png'] = 'rbxassetid://14368350193',
+		['dogvape/assets/new/rendertab.png'] = 'rbxassetid://14397373458',
+		['dogvape/assets/new/search.png'] = 'rbxassetid://14425646684',
+		['dogvape/assets/new/expandicon.png'] = 'rbxassetid://14368353032',
+		['dogvape/assets/new/targetinfoicon.png'] = 'rbxassetid://14368354234',
+		['dogvape/assets/new/targetnpc1.png'] = 'rbxassetid://14497400332',
+		['dogvape/assets/new/targetnpc2.png'] = 'rbxassetid://14497402744',
+		['dogvape/assets/new/targetplayers1.png'] = 'rbxassetid://14497396015',
+		['dogvape/assets/new/targetplayers2.png'] = 'rbxassetid://14497397862',
+		['dogvape/assets/new/targetstab.png'] = 'rbxassetid://14497393895',
+		['dogvape/assets/new/textguiicon.png'] = 'rbxassetid://14368355456',
+		['dogvape/assets/new/textv4.png'] = 'rbxassetid://14368357095',
+		['dogvape/assets/new/textvape.png'] = 'rbxassetid://14368358200',
+		['dogvape/assets/new/utilityicon.png'] = 'rbxassetid://14368359107',
+		['dogvape/assets/new/vape.png'] = 'rbxassetid://14373395239',
+		['dogvape/assets/new/warning.png'] = 'rbxassetid://14368361552',
+		['dogvape/assets/new/worldicon.png'] = 'rbxassetid://14368362492',
+		['dogvape/assets/old/spotify.png'] = 'rbxassetid://129349257949035'
 	}
 	
-	pcall(delfolder, "newcatvape/assets/trash")
+	pcall(delfolder, "dogvape/assets/trash")
 	
 	local isfile = isfile or function(file)
 		local suc, res = pcall(function()
@@ -151,7 +151,7 @@ local init: () -> table = function()
 		blur.Position = UDim2.fromOffset(-48, -31)
 		blur.ImageColor3 = parent.BackgroundColor3
 		blur.BackgroundTransparency = 1
-		blur.Image = getcustomasset('newcatvape/assets/new/'..(notif and 'blurnotif' or 'blur')..'.png')
+		blur.Image = getcustomasset('dogvape/assets/new/'..(notif and 'blurnotif' or 'blur')..'.png')
 		blur.ScaleType = Enum.ScaleType.Slice
 		blur.SliceCenter = Rect.new(52, 31, 261, 502)
 		blur.Parent = parent
@@ -175,7 +175,7 @@ local init: () -> table = function()
 		close.BackgroundColor3 = Color3.new(1, 1, 1)
 		close.BackgroundTransparency = 1
 		close.AutoButtonColor = false
-		close.Image = getcustomasset('newcatvape/assets/new/close.png')
+		close.Image = getcustomasset('dogvape/assets/new/close.png')
 		close.ImageColor3 = color.Light(uipallet.Text, 0.2)
 		close.ImageTransparency = 0.5
 		close.Parent = parent
@@ -326,7 +326,7 @@ local init: () -> table = function()
 		if not isfile(path) then
 			createDownloader(path)
 			local suc, res = pcall(function()
-				return game:HttpGet('https://raw.githubusercontent.com/new-qwertyui/CatV5/'..readfile('newcatvape/profiles/commit.txt')..'/'..select(1, path:gsub('newcatvape/', '')), true)
+				return game:HttpGet('https://raw.githubusercontent.com/new-qwertyui/CatV5/'..readfile('dogvape/profiles/commit.txt')..'/'..select(1, path:gsub('dogvape/', '')), true)
 			end)
 			if not suc or res == '404: Not Found' then
 				error(res)
@@ -430,7 +430,7 @@ local init: () -> table = function()
 	end
 	
 	do
-		local res = isfile('newcatvape/profiles/color.txt') and loadJson('newcatvape/profiles/color.txt')
+		local res = isfile('dogvape/profiles/color.txt') and loadJson('dogvape/profiles/color.txt')
 		if res then 
 			uipallet.Main = res.Main and Color3.fromRGB(unpack(res.Main)) or uipallet.Main
 			uipallet.Text = res.Main and Color3.fromRGB(unpack(res.Text)) or uipallet.Text
@@ -513,8 +513,8 @@ local init: () -> table = function()
 		getfontsize = getfontsize,
 		tween = tween,
 		uipallet = uipallet,
-		base64 = loadstring(downloadFile("newcatvape/libraries/base64.lua"), "base64")(),
-		spotify = loadstring(downloadFile("newcatvape/libraries/spotify.lua"), "spotify")()
+		base64 = loadstring(downloadFile("dogvape/libraries/base64.lua"), "base64")(),
+		spotify = loadstring(downloadFile("dogvape/libraries/spotify.lua"), "spotify")()
 	}
 	
 	local components
@@ -718,7 +718,7 @@ local init: () -> table = function()
 			preview.Size = UDim2.fromOffset(12, 12)
 			preview.Position = UDim2.new(1, -22, 0, 10)
 			preview.BackgroundTransparency = 1
-			preview.Image = getcustomasset('newcatvape/assets/new/colorpreview.png')
+			preview.Image = getcustomasset('dogvape/assets/new/colorpreview.png')
 			preview.ImageColor3 = Color3.fromHSV(optionapi.Hue, optionapi.Sat, optionapi.Value)
 			preview.ImageTransparency = 1 - optionapi.Opacity
 			preview.Parent = slider
@@ -734,7 +734,7 @@ local init: () -> table = function()
 			expand.Size = UDim2.fromOffset(9, 5)
 			expand.Position = UDim2.fromOffset(4, 4)
 			expand.BackgroundTransparency = 1
-			expand.Image = getcustomasset('newcatvape/assets/new/expandicon.png')
+			expand.Image = getcustomasset('dogvape/assets/new/expandicon.png')
 			expand.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 			expand.Parent = expandbutton
 			local rainbow = Instance.new('TextButton')
@@ -747,17 +747,17 @@ local init: () -> table = function()
 			local rainbow1 = Instance.new('ImageLabel')
 			rainbow1.Size = UDim2.fromOffset(12, 12)
 			rainbow1.BackgroundTransparency = 1
-			rainbow1.Image = getcustomasset('newcatvape/assets/new/rainbow_1.png')
+			rainbow1.Image = getcustomasset('dogvape/assets/new/rainbow_1.png')
 			rainbow1.ImageColor3 = color.Light(uipallet.Main, 0.37)
 			rainbow1.Parent = rainbow
 			local rainbow2 = rainbow1:Clone()
-			rainbow2.Image = getcustomasset('newcatvape/assets/new/rainbow_2.png')
+			rainbow2.Image = getcustomasset('dogvape/assets/new/rainbow_2.png')
 			rainbow2.Parent = rainbow
 			local rainbow3 = rainbow1:Clone()
-			rainbow3.Image = getcustomasset('newcatvape/assets/new/rainbow_3.png')
+			rainbow3.Image = getcustomasset('dogvape/assets/new/rainbow_3.png')
 			rainbow3.Parent = rainbow
 			local rainbow4 = rainbow1:Clone()
-			rainbow4.Image = getcustomasset('newcatvape/assets/new/rainbow_4.png')
+			rainbow4.Image = getcustomasset('dogvape/assets/new/rainbow_4.png')
 			rainbow4.Parent = rainbow
 			local knobholder = Instance.new('Frame')
 			knobholder.Name = 'Knob'
@@ -1022,7 +1022,7 @@ local init: () -> table = function()
 			arrow.Size = UDim2.fromOffset(4, 8)
 			arrow.Position = UDim2.new(1, -17, 0, 11)
 			arrow.BackgroundTransparency = 1
-			arrow.Image = getcustomasset('newcatvape/assets/new/expandright.png')
+			arrow.Image = getcustomasset('dogvape/assets/new/expandright.png')
 			arrow.ImageColor3 = Color3.fromRGB(140, 140, 140)
 			arrow.Rotation = 90
 			arrow.Parent = button
@@ -1433,7 +1433,7 @@ local init: () -> table = function()
 			icon.Size = UDim2.fromOffset(18, 12)
 			icon.Position = UDim2.fromOffset(10, 15)
 			icon.BackgroundTransparency = 1
-			icon.Image = getcustomasset('newcatvape/assets/new/targetstab.png')
+			icon.Image = getcustomasset('dogvape/assets/new/targetstab.png')
 			icon.Parent = window
 			local title = Instance.new('TextLabel')
 			title.Name = 'Title'
@@ -1495,20 +1495,20 @@ local init: () -> table = function()
 			
 			optionapi.Players = components.TargetsButton({
 				Position = UDim2.fromOffset(11, 45),
-				Icon = getcustomasset('newcatvape/assets/new/targetplayers1.png'),
+				Icon = getcustomasset('dogvape/assets/new/targetplayers1.png'),
 				IconSize = UDim2.fromOffset(15, 16),
 				IconParent = tool,
-				ToolIcon = getcustomasset('newcatvape/assets/new/targetplayers2.png'),
+				ToolIcon = getcustomasset('dogvape/assets/new/targetplayers2.png'),
 				ToolSize = UDim2.fromOffset(11, 12),
 				Tooltip = 'Players',
 				Function = optionsettings.Function
 			}, window, tool)
 			optionapi.NPCs = components.TargetsButton({
 				Position = UDim2.fromOffset(112, 45),
-				Icon = getcustomasset('newcatvape/assets/new/targetnpc1.png'),
+				Icon = getcustomasset('dogvape/assets/new/targetnpc1.png'),
 				IconSize = UDim2.fromOffset(12, 16),
 				IconParent = tool,
-				ToolIcon = getcustomasset('newcatvape/assets/new/targetnpc2.png'),
+				ToolIcon = getcustomasset('dogvape/assets/new/targetnpc2.png'),
 				ToolSize = UDim2.fromOffset(9, 12),
 				Tooltip = 'NPCs',
 				Function = optionsettings.Function
@@ -1792,7 +1792,7 @@ local init: () -> table = function()
 			buttonicon.Size = UDim2.fromOffset(14, 12)
 			buttonicon.Position = UDim2.fromOffset(10, 14)
 			buttonicon.BackgroundTransparency = 1
-			buttonicon.Image = optionsettings.Icon or getcustomasset('newcatvape/assets/new/allowedicon.png')
+			buttonicon.Image = optionsettings.Icon or getcustomasset('dogvape/assets/new/allowedicon.png')
 			buttonicon.Parent = button
 			local buttontitle = Instance.new('TextLabel')
 			buttontitle.Name = 'Title'
@@ -1838,7 +1838,7 @@ local init: () -> table = function()
 			icon.Size = optionsettings.TabSize or UDim2.fromOffset(19, 16)
 			icon.Position = UDim2.fromOffset(10, 13)
 			icon.BackgroundTransparency = 1
-			icon.Image = optionsettings.Tab or getcustomasset('newcatvape/assets/new/allowedtab.png')
+			icon.Image = optionsettings.Tab or getcustomasset('dogvape/assets/new/allowedtab.png')
 			icon.Parent = window
 			local title = Instance.new('TextLabel')
 			title.Name = 'Title'
@@ -1881,7 +1881,7 @@ local init: () -> table = function()
 			addbutton.Size = UDim2.fromOffset(16, 16)
 			addbutton.Position = UDim2.new(1, -26, 0, 8)
 			addbutton.BackgroundTransparency = 1
-			addbutton.Image = getcustomasset('newcatvape/assets/new/add.png')
+			addbutton.Image = getcustomasset('dogvape/assets/new/add.png')
 			addbutton.ImageColor3 = optionsettings.Color
 			addbutton.ImageTransparency = 0.3
 			addbutton.Parent = addbkg
@@ -1985,7 +1985,7 @@ local init: () -> table = function()
 					close.BackgroundColor3 = Color3.new(1, 1, 1)
 					close.BackgroundTransparency = 1
 					close.AutoButtonColor = false
-					close.Image = getcustomasset('newcatvape/assets/new/closemini.png')
+					close.Image = getcustomasset('dogvape/assets/new/closemini.png')
 					close.ImageColor3 = color.Light(uipallet.Text, 0.2)
 					close.ImageTransparency = 0.5
 					close.Parent = object
@@ -2285,7 +2285,7 @@ local init: () -> table = function()
 			knob.Position = UDim2.fromScale(0.5, 0.5)
 			knob.AnchorPoint = Vector2.new(0.5, 0.5)
 			knob.BackgroundTransparency = 1
-			knob.Image = getcustomasset('newcatvape/assets/new/range.png')
+			knob.Image = getcustomasset('dogvape/assets/new/range.png')
 			knob.ImageColor3 = Color3.fromHSV(mainapi.GUIColor.Hue, mainapi.GUIColor.Sat, mainapi.GUIColor.Value)
 			knob.Parent = knobholder
 			local knobholdermax = knobholder:Clone()
@@ -2298,7 +2298,7 @@ local init: () -> table = function()
 			arrow.Size = UDim2.fromOffset(12, 6)
 			arrow.Position = UDim2.new(1, -56, 0, 10)
 			arrow.BackgroundTransparency = 1
-			arrow.Image = getcustomasset('newcatvape/assets/new/rangearrow.png')
+			arrow.Image = getcustomasset('dogvape/assets/new/rangearrow.png')
 			arrow.ImageColor3 = color.Light(uipallet.Main, 0.14)
 			arrow.Parent = slider
 			optionsettings.Function = optionsettings.Function or function() end
@@ -2510,7 +2510,7 @@ local init: () -> table = function()
 		logo.Size = UDim2.fromOffset(62, 18)
 		logo.Position = UDim2.fromOffset(11, 10)
 		logo.BackgroundTransparency = 1
-		logo.Image = getcustomasset('newcatvape/assets/new/guivape.png')
+		logo.Image = getcustomasset('dogvape/assets/new/guivape.png')
 		logo.ImageColor3 = select(3, uipallet.Main:ToHSV()) > 0.5 and uipallet.Text or Color3.new(1, 1, 1)
 		logo.Parent = window
 		local logov4 = Instance.new('ImageLabel')
@@ -2518,7 +2518,7 @@ local init: () -> table = function()
 		logov4.Size = UDim2.fromOffset(28, 16)
 		logov4.Position = UDim2.new(1, 1, 0, 1)
 		logov4.BackgroundTransparency = 1
-		logov4.Image = getcustomasset('newcatvape/assets/new/guiv4.png')
+		logov4.Image = getcustomasset('dogvape/assets/new/guiv4.png')
 		logov4.Parent = logo
 		local children = Instance.new('Frame')
 		children.Name = 'Children'
@@ -2542,7 +2542,7 @@ local init: () -> table = function()
 		settingsicon.Size = UDim2.fromOffset(14, 14)
 		settingsicon.Position = UDim2.fromOffset(15, 12)
 		settingsicon.BackgroundTransparency = 1
-		settingsicon.Image = getcustomasset('newcatvape/assets/new/guisettings.png')
+		settingsicon.Image = getcustomasset('dogvape/assets/new/guisettings.png')
 		settingsicon.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		settingsicon.Parent = settingsbutton
 		local settingspane = Instance.new('TextButton')
@@ -2569,7 +2569,7 @@ local init: () -> table = function()
 		back.Size = UDim2.fromOffset(16, 16)
 		back.Position = UDim2.fromOffset(11, 13)
 		back.BackgroundTransparency = 1
-		back.Image = getcustomasset('newcatvape/assets/new/back.png')
+		back.Image = getcustomasset('dogvape/assets/new/back.png')
 		back.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		back.Parent = settingspane
 		local settingsversion = Instance.new('TextLabel')
@@ -2578,7 +2578,7 @@ local init: () -> table = function()
 		settingsversion.Position = UDim2.new(0, 0, 1, -16)
 		settingsversion.BackgroundTransparency = 1
 		settingsversion.Text = 'Vape '..mainapi.Version..' '..(
-			isfile('newcatvape/profiles/commit.txt') and readfile('newcatvape/profiles/commit.txt'):sub(1, 6) or ''
+			isfile('dogvape/profiles/commit.txt') and readfile('dogvape/profiles/commit.txt'):sub(1, 6) or ''
 		)..' '
 		settingsversion.TextColor3 = color.Dark(uipallet.Text, 0.43)
 		settingsversion.TextXAlignment = Enum.TextXAlignment.Right
@@ -2632,7 +2632,7 @@ local init: () -> table = function()
 			icon.Size = UDim2.fromOffset(12, 12)
 			icon.Position = UDim2.new(0.5, -6, 0, 5)
 			icon.BackgroundTransparency = 1
-			icon.Image = getcustomasset('newcatvape/assets/new/bind.png')
+			icon.Image = getcustomasset('dogvape/assets/new/bind.png')
 			icon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 			icon.Parent = bind
 			local label = Instance.new('TextLabel')
@@ -2665,13 +2665,13 @@ local init: () -> table = function()
 			bind.MouseEnter:Connect(function()
 				label.Visible = false
 				icon.Visible = not label.Visible
-				icon.Image = getcustomasset('newcatvape/assets/new/edit.png')
+				icon.Image = getcustomasset('dogvape/assets/new/edit.png')
 				icon.ImageColor3 = color.Dark(uipallet.Text, 0.16)
 			end)
 			bind.MouseLeave:Connect(function()
 				label.Visible = true
 				icon.Visible = not label.Visible
-				icon.Image = getcustomasset('newcatvape/assets/new/bind.png')
+				icon.Image = getcustomasset('dogvape/assets/new/bind.png')
 				icon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 			end)
 			bind.MouseButton1Click:Connect(function()
@@ -2732,7 +2732,7 @@ local init: () -> table = function()
 			arrow.Size = UDim2.fromOffset(4, 8)
 			arrow.Position = UDim2.new(1, -20, 0, 16)
 			arrow.BackgroundTransparency = 1
-			arrow.Image = getcustomasset('newcatvape/assets/new/expandright.png')
+			arrow.Image = getcustomasset('dogvape/assets/new/expandright.png')
 			arrow.ImageColor3 = color.Light(uipallet.Main, 0.37)
 			arrow.Parent = button
 			optionapi.Name = categorysettings.Name
@@ -2794,7 +2794,7 @@ local init: () -> table = function()
 			button.Position = UDim2.new(1, -29, 0, 7)
 			button.BackgroundTransparency = 1
 			button.AutoButtonColor = false
-			button.Image = getcustomasset('newcatvape/assets/new/overlaysicon.png')
+			button.Image = getcustomasset('dogvape/assets/new/overlaysicon.png')
 			button.ImageColor3 = color.Light(uipallet.Main, 0.37)
 			button.Parent = bar
 			addCorner(button, UDim.new(1, 0))
@@ -2821,7 +2821,7 @@ local init: () -> table = function()
 			icon.Size = UDim2.fromOffset(14, 12)
 			icon.Position = UDim2.fromOffset(10, 13)
 			icon.BackgroundTransparency = 1
-			icon.Image = getcustomasset('newcatvape/assets/new/overlaystab.png')
+			icon.Image = getcustomasset('dogvape/assets/new/overlaystab.png')
 			icon.ImageColor3 = uipallet.Text
 			icon.Parent = window
 			local title = Instance.new('TextLabel')
@@ -3013,7 +3013,7 @@ local init: () -> table = function()
 			arrow.Size = UDim2.fromOffset(4, 8)
 			arrow.Position = UDim2.new(1, -20, 0, 16)
 			arrow.BackgroundTransparency = 1
-			arrow.Image = getcustomasset('newcatvape/assets/new/expandright.png')
+			arrow.Image = getcustomasset('dogvape/assets/new/expandright.png')
 			arrow.ImageColor3 = color.Light(uipallet.Main, 0.37)
 			arrow.Parent = button
 			local settingspane = Instance.new('TextButton')
@@ -3040,7 +3040,7 @@ local init: () -> table = function()
 			back.Size = UDim2.fromOffset(16, 16)
 			back.Position = UDim2.fromOffset(11, 13)
 			back.BackgroundTransparency = 1
-			back.Image = getcustomasset('newcatvape/assets/new/back.png')
+			back.Image = getcustomasset('dogvape/assets/new/back.png')
 			back.ImageColor3 = color.Light(uipallet.Main, 0.37)
 			back.Parent = settingspane
 			addCorner(settingspane)
@@ -3288,7 +3288,7 @@ local init: () -> table = function()
 			preview.Size = UDim2.fromOffset(12, 12)
 			preview.Position = UDim2.new(1, -22, 0, 10)
 			preview.BackgroundTransparency = 1
-			preview.Image = getcustomasset('newcatvape/assets/new/colorpreview.png')
+			preview.Image = getcustomasset('dogvape/assets/new/colorpreview.png')
 			preview.ImageColor3 = Color3.fromHSV(optionapi.Hue, 1, 1)
 			preview.Parent = slider
 			local valuebox = Instance.new('TextBox')
@@ -3316,7 +3316,7 @@ local init: () -> table = function()
 			expandicon.Size = UDim2.fromOffset(9, 5)
 			expandicon.Position = UDim2.fromOffset(4, 4)
 			expandicon.BackgroundTransparency = 1
-			expandicon.Image = getcustomasset('newcatvape/assets/new/expandicon.png')
+			expandicon.Image = getcustomasset('dogvape/assets/new/expandicon.png')
 			expandicon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 			expandicon.Parent = expandbutton
 			local rainbow = Instance.new('TextButton')
@@ -3329,24 +3329,24 @@ local init: () -> table = function()
 			local rainbow1 = Instance.new('ImageLabel')
 			rainbow1.Size = UDim2.fromOffset(12, 12)
 			rainbow1.BackgroundTransparency = 1
-			rainbow1.Image = getcustomasset('newcatvape/assets/new/rainbow_1.png')
+			rainbow1.Image = getcustomasset('dogvape/assets/new/rainbow_1.png')
 			rainbow1.ImageColor3 = color.Light(uipallet.Main, 0.37)
 			rainbow1.Parent = rainbow
 			local rainbow2 = rainbow1:Clone()
-			rainbow2.Image = getcustomasset('newcatvape/assets/new/rainbow_2.png')
+			rainbow2.Image = getcustomasset('dogvape/assets/new/rainbow_2.png')
 			rainbow2.Parent = rainbow
 			local rainbow3 = rainbow1:Clone()
-			rainbow3.Image = getcustomasset('newcatvape/assets/new/rainbow_3.png')
+			rainbow3.Image = getcustomasset('dogvape/assets/new/rainbow_3.png')
 			rainbow3.Parent = rainbow
 			local rainbow4 = rainbow1:Clone()
-			rainbow4.Image = getcustomasset('newcatvape/assets/new/rainbow_4.png')
+			rainbow4.Image = getcustomasset('dogvape/assets/new/rainbow_4.png')
 			rainbow4.Parent = rainbow
 			local knob = Instance.new('ImageLabel')
 			knob.Name = 'Knob'
 			knob.Size = UDim2.fromOffset(26, 12)
 			knob.Position = UDim2.fromOffset(slidercolorpos[4] - 3, -5)
 			knob.BackgroundTransparency = 1
-			knob.Image = getcustomasset('newcatvape/assets/new/guislider.png')
+			knob.Image = getcustomasset('dogvape/assets/new/guislider.png')
 			knob.ImageColor3 = slidercolors[4]
 			knob.Parent = holder
 			optionsettings.Function = optionsettings.Function or function() end
@@ -3363,8 +3363,8 @@ local init: () -> table = function()
 				ColorSequenceKeypoint.new(0, Color3.fromHSV(0, 0, 0)),
 				ColorSequenceKeypoint.new(1, Color3.fromHSV(optionapi.Hue, optionapi.Sat, 1))
 			}))
-			local normalknob = getcustomasset('newcatvape/assets/new/guislider.png')
-			local rainbowknob = getcustomasset('newcatvape/assets/new/guisliderrain.png')
+			local normalknob = getcustomasset('dogvape/assets/new/guislider.png')
+			local rainbowknob = getcustomasset('dogvape/assets/new/guisliderrain.png')
 			local rainbowthread
 	
 			function optionapi:Save(tab)
@@ -3656,7 +3656,7 @@ local init: () -> table = function()
 		arrow.Size = UDim2.fromOffset(9, 4)
 		arrow.Position = UDim2.fromOffset(20, 18)
 		arrow.BackgroundTransparency = 1
-		arrow.Image = getcustomasset('newcatvape/assets/new/expandup.png')
+		arrow.Image = getcustomasset('dogvape/assets/new/expandup.png')
 		arrow.ImageColor3 = Color3.fromRGB(140, 140, 140)
 		arrow.Rotation = 180
 		arrow.Parent = arrowbutton
@@ -3733,7 +3733,7 @@ local init: () -> table = function()
 			bindicon.Size = UDim2.fromOffset(12, 12)
 			bindicon.Position = UDim2.new(0.5, -6, 0, 5)
 			bindicon.BackgroundTransparency = 1
-			bindicon.Image = getcustomasset('newcatvape/assets/new/bind.png')
+			bindicon.Image = getcustomasset('dogvape/assets/new/bind.png')
 			bindicon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 			bindicon.Parent = bind
 			local bindtext = Instance.new('TextLabel')
@@ -3751,7 +3751,7 @@ local init: () -> table = function()
 			bindcover.Size = UDim2.fromOffset(154, 40)
 			bindcover.BackgroundTransparency = 1
 			bindcover.Visible = false
-			bindcover.Image = getcustomasset('newcatvape/assets/new/bindbkg.png')
+			bindcover.Image = getcustomasset('dogvape/assets/new/bindbkg.png')
 			bindcover.ScaleType = Enum.ScaleType.Slice
 			bindcover.SliceCenter = Rect.new(0, 0, 141, 40)
 			bindcover.Parent = modulebutton
@@ -3777,7 +3777,7 @@ local init: () -> table = function()
 			dots.Size = UDim2.fromOffset(3, 16)
 			dots.Position = UDim2.fromOffset(4, 12)
 			dots.BackgroundTransparency = 1
-			dots.Image = getcustomasset('newcatvape/assets/new/dots.png')
+			dots.Image = getcustomasset('dogvape/assets/new/dots.png')
 			dots.ImageColor3 = color.Light(uipallet.Main, 0.37)
 			dots.Parent = dotsbutton
 			modulechildren.Name = modulesettings.Name..'Children'
@@ -3864,13 +3864,13 @@ local init: () -> table = function()
 			bind.MouseEnter:Connect(function()
 				bindtext.Visible = false
 				bindicon.Visible = not bindtext.Visible
-				bindicon.Image = getcustomasset('newcatvape/assets/new/edit.png')
+				bindicon.Image = getcustomasset('dogvape/assets/new/edit.png')
 				if not moduleapi.Enabled then bindicon.ImageColor3 = color.Dark(uipallet.Text, 0.16) end
 			end)
 			bind.MouseLeave:Connect(function()
 				bindtext.Visible = #moduleapi.Bind > 0
 				bindicon.Visible = not bindtext.Visible
-				bindicon.Image = getcustomasset('newcatvape/assets/new/bind.png')
+				bindicon.Image = getcustomasset('dogvape/assets/new/bind.png')
 				if not moduleapi.Enabled then
 					bindicon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 				end
@@ -4111,7 +4111,7 @@ local init: () -> table = function()
 		pin.Position = UDim2.new(1, -47, 0, 12)
 		pin.BackgroundTransparency = 1
 		pin.AutoButtonColor = false
-		pin.Image = getcustomasset('newcatvape/assets/new/pin.png')
+		pin.Image = getcustomasset('dogvape/assets/new/pin.png')
 		pin.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 		pin.Parent = window
 		local dotsbutton = Instance.new('TextButton')
@@ -4126,7 +4126,7 @@ local init: () -> table = function()
 		dots.Size = UDim2.fromOffset(3, 16)
 		dots.Position = UDim2.fromOffset(4, 12)
 		dots.BackgroundTransparency = 1
-		dots.Image = getcustomasset('newcatvape/assets/new/dots.png')
+		dots.Image = getcustomasset('dogvape/assets/new/dots.png')
 		dots.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		dots.Parent = dotsbutton
 		local customchildren = Instance.new('Frame')
@@ -4296,7 +4296,7 @@ local init: () -> table = function()
 		arrow.Size = UDim2.fromOffset(9, 4)
 		arrow.Position = UDim2.fromOffset(20, 19)
 		arrow.BackgroundTransparency = 1
-		arrow.Image = getcustomasset('newcatvape/assets/new/expandup.png')
+		arrow.Image = getcustomasset('dogvape/assets/new/expandup.png')
 		arrow.ImageColor3 = Color3.fromRGB(140, 140, 140)
 		arrow.Rotation = 180
 		arrow.Parent = arrowbutton
@@ -4322,7 +4322,7 @@ local init: () -> table = function()
 		settings.Position = UDim2.new(1, -52, 0, 13)
 		settings.BackgroundTransparency = 1
 		settings.AutoButtonColor = false
-		settings.Image = getcustomasset('newcatvape/assets/new/customsettings.png')
+		settings.Image = getcustomasset('dogvape/assets/new/customsettings.png')
 		settings.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 		settings.Parent = window
 		local divider = Instance.new('Frame')
@@ -4372,7 +4372,7 @@ local init: () -> table = function()
 		addbutton.Size = UDim2.fromOffset(16, 16)
 		addbutton.Position = UDim2.new(1, -26, 0, 8)
 		addbutton.BackgroundTransparency = 1
-		addbutton.Image = getcustomasset('newcatvape/assets/new/add.png')
+		addbutton.Image = getcustomasset('dogvape/assets/new/add.png')
 		addbutton.ImageColor3 = categorysettings.Color
 		addbutton.ImageTransparency = 0.3
 		addbutton.Parent = addbkg
@@ -4389,8 +4389,8 @@ local init: () -> table = function()
 					if ind then
 						if val ~= 'default' then
 							table.remove(mainapi.Profiles, ind)
-							if isfile('newcatvape/profiles/'..val..mainapi.Place..'.txt') and delfile then
-								delfile('newcatvape/profiles/'..val..mainapi.Place..'.txt')
+							if isfile('dogvape/profiles/'..val..mainapi.Place..'.txt') and delfile then
+								delfile('dogvape/profiles/'..val..mainapi.Place..'.txt')
 							end
 						end
 					else
@@ -4456,7 +4456,7 @@ local init: () -> table = function()
 					dots.Size = UDim2.fromOffset(3, 16)
 					dots.Position = UDim2.fromOffset(10, 9)
 					dots.BackgroundTransparency = 1
-					dots.Image = getcustomasset('newcatvape/assets/new/dots.png')
+					dots.Image = getcustomasset('dogvape/assets/new/dots.png')
 					dots.ImageColor3 = color.Light(uipallet.Main, 0.37)
 					dots.Parent = dotsbutton
 					local bind = Instance.new('TextButton')
@@ -4477,7 +4477,7 @@ local init: () -> table = function()
 					bindicon.Size = UDim2.fromOffset(12, 12)
 					bindicon.Position = UDim2.new(0.5, -6, 0, 5)
 					bindicon.BackgroundTransparency = 1
-					bindicon.Image = getcustomasset('newcatvape/assets/new/bind.png')
+					bindicon.Image = getcustomasset('dogvape/assets/new/bind.png')
 					bindicon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 					bindicon.Parent = bind
 					local bindtext = Instance.new('TextLabel')
@@ -4493,7 +4493,7 @@ local init: () -> table = function()
 					bind.MouseEnter:Connect(function()
 						bindtext.Visible = false
 						bindicon.Visible = not bindtext.Visible
-						bindicon.Image = getcustomasset('newcatvape/assets/new/edit.png')
+						bindicon.Image = getcustomasset('dogvape/assets/new/edit.png')
 						if v.Name ~= mainapi.Profile then
 							bindicon.ImageColor3 = color.Dark(uipallet.Text, 0.16)
 						end
@@ -4501,7 +4501,7 @@ local init: () -> table = function()
 					bind.MouseLeave:Connect(function()
 						bindtext.Visible = #v.Bind > 0
 						bindicon.Visible = not bindtext.Visible
-						bindicon.Image = getcustomasset('newcatvape/assets/new/bind.png')
+						bindicon.Image = getcustomasset('dogvape/assets/new/bind.png')
 						if v.Name ~= mainapi.Profile then
 							bindicon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 						end
@@ -4511,7 +4511,7 @@ local init: () -> table = function()
 					bindcover.Size = UDim2.fromOffset(154, 33)
 					bindcover.BackgroundTransparency = 1
 					bindcover.Visible = false
-					bindcover.Image = getcustomasset('newcatvape/assets/new/bindbkg.png')
+					bindcover.Image = getcustomasset('dogvape/assets/new/bindbkg.png')
 					bindcover.ScaleType = Enum.ScaleType.Slice
 					bindcover.SliceCenter = Rect.new(0, 0, 141, 40)
 					bindcover.Parent = object
@@ -4644,7 +4644,7 @@ local init: () -> table = function()
 					close.BackgroundColor3 = Color3.new(1, 1, 1)
 					close.BackgroundTransparency = 1
 					close.AutoButtonColor = false
-					close.Image = getcustomasset('newcatvape/assets/new/closemini.png')
+					close.Image = getcustomasset('dogvape/assets/new/closemini.png')
 					close.ImageColor3 = color.Light(uipallet.Text, 0.2)
 					close.ImageTransparency = 0.5
 					close.Parent = object
@@ -4810,7 +4810,7 @@ local init: () -> table = function()
 		searchicon.Size = UDim2.fromOffset(14, 14)
 		searchicon.Position = UDim2.new(1, -23, 0, 11)
 		searchicon.BackgroundTransparency = 1
-		searchicon.Image = getcustomasset('newcatvape/assets/new/search.png')
+		searchicon.Image = getcustomasset('dogvape/assets/new/search.png')
 		searchicon.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		searchicon.Parent = searchbkg
 		local legiticon = Instance.new('ImageButton')
@@ -4818,7 +4818,7 @@ local init: () -> table = function()
 		legiticon.Size = UDim2.fromOffset(29, 16)
 		legiticon.Position = UDim2.fromOffset(8, 11)
 		legiticon.BackgroundTransparency = 1
-		legiticon.Image = getcustomasset('newcatvape/assets/new/legit.png')
+		legiticon.Image = getcustomasset('dogvape/assets/new/legit.png')
 		legiticon.Parent = searchbkg
 		local legitdivider = Instance.new('Frame')
 		legitdivider.Name = 'LegitDivider'
@@ -4937,7 +4937,7 @@ local init: () -> table = function()
 		icon.Size = UDim2.fromOffset(16, 16)
 		icon.Position = UDim2.fromOffset(18, 13)
 		icon.BackgroundTransparency = 1
-		icon.Image = getcustomasset('newcatvape/assets/new/legittab.png')
+		icon.Image = getcustomasset('dogvape/assets/new/legittab.png')
 		icon.ImageColor3 = uipallet.Text
 		icon.Parent = window
 		local close = addCloseButton(window)
@@ -5012,7 +5012,7 @@ local init: () -> table = function()
 			dots.Size = UDim2.fromOffset(2, 12)
 			dots.Position = UDim2.fromOffset(6, 6)
 			dots.BackgroundTransparency = 1
-			dots.Image = getcustomasset('newcatvape/assets/new/dots.png')
+			dots.Image = getcustomasset('dogvape/assets/new/dots.png')
 			dots.ImageColor3 = color.Light(uipallet.Main, 0.37)
 			dots.Parent = dotsbutton
 			local shadow = Instance.new('TextButton')
@@ -5049,7 +5049,7 @@ local init: () -> table = function()
 			back.Size = UDim2.fromOffset(16, 16)
 			back.Position = UDim2.fromOffset(11, 13)
 			back.BackgroundTransparency = 1
-			back.Image = getcustomasset('newcatvape/assets/new/back.png')
+			back.Image = getcustomasset('dogvape/assets/new/back.png')
 			back.ImageColor3 = color.Light(uipallet.Main, 0.37)
 			back.Parent = settingspane
 			addCorner(settingspane)
@@ -5245,7 +5245,7 @@ local init: () -> table = function()
 			notification.Position = UDim2.new(1, 0, 1, -(29 + (78 * i)))
 			notification.ZIndex = 5
 			notification.BackgroundTransparency = 1
-			notification.Image = getcustomasset('newcatvape/assets/new/notification.png')
+			notification.Image = getcustomasset('dogvape/assets/new/notification.png')
 			notification.ScaleType = Enum.ScaleType.Slice
 			notification.SliceCenter = Rect.new(7, 7, 9, 9)
 			notification.Parent = notifications
@@ -5256,7 +5256,7 @@ local init: () -> table = function()
 			iconshadow.Position = UDim2.fromOffset(-5, -8)
 			iconshadow.ZIndex = 5
 			iconshadow.BackgroundTransparency = 1
-			iconshadow.Image = custom and type or getcustomasset('newcatvape/assets/new/'..(type or 'info')..'.png')
+			iconshadow.Image = custom and type or getcustomasset('dogvape/assets/new/'..(type or 'info')..'.png')
 			iconshadow.ImageColor3 = Color3.new()
 			iconshadow.ImageTransparency = 0.5
 			iconshadow.Parent = notification
@@ -5338,8 +5338,8 @@ local init: () -> table = function()
 		local guidata = {}
 		local savecheck = true
 	
-		if isfile('newcatvape/profiles/'..game.GameId..'.gui.txt') then
-			guidata = loadJson('newcatvape/profiles/'..game.GameId..'.gui.txt')
+		if isfile('dogvape/profiles/'..game.GameId..'.gui.txt') then
+			guidata = loadJson('dogvape/profiles/'..game.GameId..'.gui.txt')
 			if not guidata then
 				guidata = {Categories = {}}
 				self:CreateNotification('Vape', 'Failed to load GUI settings.', 10, 'alert')
@@ -5385,8 +5385,8 @@ local init: () -> table = function()
 			self.ProfileLabel.Size = UDim2.fromOffset(getfontsize(self.ProfileLabel.Text, self.ProfileLabel.TextSize, self.ProfileLabel.Font).X + 16, 24)
 		end
 	
-		if isfile('newcatvape/profiles/'..self.Profile..self.Place..'.txt') then
-			local savedata = loadJson('newcatvape/profiles/'..self.Profile..self.Place..'.txt')
+		if isfile('dogvape/profiles/'..self.Profile..self.Place..'.txt') then
+			local savedata = loadJson('dogvape/profiles/'..self.Profile..self.Place..'.txt')
 			if not savedata then
 				savedata = {Categories = {}, Modules = {}, Legit = {}}
 				self:CreateNotification('Vape', 'Failed to load '..self.Profile..' profile.', 10, 'alert')
@@ -5477,7 +5477,7 @@ local init: () -> table = function()
 			image.Position = UDim2.fromScale(0.5, 0.5)
 			image.ZIndex = 500
 			image.BackgroundTransparency = 1
-			image.Image = getcustomasset('newcatvape/assets/new/vape.png')
+			image.Image = getcustomasset('dogvape/assets/new/vape.png')
 			image.Parent = button
 
 			local buttoncorner = Instance.new('UICorner')
@@ -5571,8 +5571,8 @@ local init: () -> table = function()
 			}
 		end
 	
-		writefile('newcatvape/profiles/'..game.GameId..'.gui.txt', httpService:JSONEncode(guidata))
-		writefile('newcatvape/profiles/'..self.Profile..self.Place..'.txt', httpService:JSONEncode(savedata))
+		writefile('dogvape/profiles/'..game.GameId..'.gui.txt', httpService:JSONEncode(guidata))
+		writefile('dogvape/profiles/'..self.Profile..self.Place..'.txt', httpService:JSONEncode(savedata))
 	end
 	
 	function mainapi:SaveOptions(object, savedoptions)
@@ -5734,37 +5734,37 @@ local init: () -> table = function()
 	mainapi.Categories.Main:CreateDivider()
 	mainapi:CreateCategory({
 		Name = 'Combat',
-		Icon = getcustomasset('newcatvape/assets/new/combaticon.png'),
+		Icon = getcustomasset('dogvape/assets/new/combaticon.png'),
 		Size = UDim2.fromOffset(13, 14)
 	})
 	mainapi:CreateCategory({
 		Name = 'Blatant',
-		Icon = getcustomasset('newcatvape/assets/new/blatanticon.png'),
+		Icon = getcustomasset('dogvape/assets/new/blatanticon.png'),
 		Size = UDim2.fromOffset(14, 14)
 	})
 	mainapi:CreateCategory({
 		Name = 'Render',
-		Icon = getcustomasset('newcatvape/assets/new/rendericon.png'),
+		Icon = getcustomasset('dogvape/assets/new/rendericon.png'),
 		Size = UDim2.fromOffset(15, 14)
 	})
 	mainapi:CreateCategory({
 		Name = 'Utility',
-		Icon = getcustomasset('newcatvape/assets/new/utilityicon.png'),
+		Icon = getcustomasset('dogvape/assets/new/utilityicon.png'),
 		Size = UDim2.fromOffset(15, 14)
 	})
 	mainapi:CreateCategory({
 		Name = 'World',
-		Icon = getcustomasset('newcatvape/assets/new/worldicon.png'),
+		Icon = getcustomasset('dogvape/assets/new/worldicon.png'),
 		Size = UDim2.fromOffset(14, 14)
 	})
 	mainapi:CreateCategory({
 		Name = 'Inventory',
-		Icon = getcustomasset('newcatvape/assets/new/inventoryicon.png'),
+		Icon = getcustomasset('dogvape/assets/new/inventoryicon.png'),
 		Size = UDim2.fromOffset(15, 14)
 	})
 	mainapi:CreateCategory({
 		Name = 'Minigames',
-		Icon = getcustomasset('newcatvape/assets/new/miniicon.png'),
+		Icon = getcustomasset('dogvape/assets/new/miniicon.png'),
 		Size = UDim2.fromOffset(19, 12)
 	})
 	mainapi.Categories.Main:CreateDivider('misc')
@@ -5780,7 +5780,7 @@ local init: () -> table = function()
 	}
 	local friendssettings = {
 		Name = 'Friends',
-		Icon = getcustomasset('newcatvape/assets/new/friendstab.png'),
+		Icon = getcustomasset('dogvape/assets/new/friendstab.png'),
 		Size = UDim2.fromOffset(17, 16),
 		Placeholder = 'Roblox username',
 		Color = Color3.fromRGB(5, 134, 105),
@@ -5833,7 +5833,7 @@ local init: () -> table = function()
 	]]
 	mainapi:CreateCategoryList({
 		Name = 'Profiles',
-		Icon = getcustomasset('newcatvape/assets/new/profilesicon.png'),
+		Icon = getcustomasset('dogvape/assets/new/profilesicon.png'),
 		Size = UDim2.fromOffset(17, 10),
 		Position = UDim2.fromOffset(12, 16),
 		Placeholder = 'Type name',
@@ -5846,7 +5846,7 @@ local init: () -> table = function()
 	local targets
 	targets = mainapi:CreateCategoryList({
 		Name = 'Targets',
-		Icon = getcustomasset('newcatvape/assets/new/friendstab.png'),
+		Icon = getcustomasset('dogvape/assets/new/friendstab.png'),
 		Size = UDim2.fromOffset(17, 16),
 		Placeholder = 'Roblox username',
 		Function = function()
@@ -5874,11 +5874,11 @@ local init: () -> table = function()
 		Name = 'Reset current profile',
 		Function = function()
 		mainapi.Save = function() end
-			if isfile('newcatvape/profiles/'..mainapi.Profile..mainapi.Place..'.txt') then
-				delfile('newcatvape/profiles/'..mainapi.Profile..mainapi.Place..'.txt')
+			if isfile('dogvape/profiles/'..mainapi.Profile..mainapi.Place..'.txt') then
+				delfile('dogvape/profiles/'..mainapi.Profile..mainapi.Place..'.txt')
 			end
 			shared.vapereload = true
-			loadfile("newcatvape/init.lua")({
+			loadfile("dogvape/init.lua")({
 				Developer = getgenv().catvapedev
 			})
 		end,
@@ -5894,7 +5894,7 @@ local init: () -> table = function()
 	general:CreateButton({
 		Name = 'Re Inject',
 		Function = function()
-			loadfile('newcatvape/init.lua')({
+			loadfile('dogvape/init.lua')({
 				Developer = getgenv().catvapedev
 			})
 		end,
@@ -5999,9 +5999,9 @@ local init: () -> table = function()
 		List = {'new', 'old', 'sigma', 'rise'},
 		Function = function(val, mouse)
 			if mouse then
-				writefile('newcatvape/profiles/gui.txt', val)
+				writefile('dogvape/profiles/gui.txt', val)
 				shared.vapereload = true
-				loadfile("newcatvape/init.lua")()
+				loadfile("dogvape/init.lua")()
 			end
 		end,
 		Tooltip = 'new - The newest vape theme to since v4.05\nold - The vape theme pre v4.05\nrise - Rise 6.0'
@@ -6053,11 +6053,11 @@ local init: () -> table = function()
 		List = list,
 		Default = 'Dark',
 		Function = function(val, mouse)
-			if mouse and (not isfile('newcatvape/profiles/color.txt') and true or httpService:JSONDecode(readfile('newcatvape/profiles/color.txt')).Main[1] ~= colors[val].Main[1]) then
-				writefile("newcatvape/profiles/color.txt", httpService:JSONEncode(colors[val]))
+			if mouse and (not isfile('dogvape/profiles/color.txt') and true or httpService:JSONDecode(readfile('dogvape/profiles/color.txt')).Main[1] ~= colors[val].Main[1]) then
+				writefile("dogvape/profiles/color.txt", httpService:JSONEncode(colors[val]))
 				mainapi:Save()
 				shared.vapereload = true
-				loadfile("newcatvape/init.lua")({
+				loadfile("dogvape/init.lua")({
 					Username = username,
 					Password = password,
 					Developer = shared.catvapedev
@@ -6167,7 +6167,7 @@ local init: () -> table = function()
 	
 	local textgui = mainapi:CreateOverlay({
 		Name = 'Text GUI',
-		Icon = getcustomasset('newcatvape/assets/new/textguiicon.png'),
+		Icon = getcustomasset('dogvape/assets/new/textguiicon.png'),
 		Size = UDim2.fromOffset(16, 12),
 		Position = UDim2.fromOffset(12, 14),
 		Function = function()
@@ -6311,8 +6311,8 @@ local init: () -> table = function()
 	textguimoduleslist = textgui:CreateTextList({
 		Name = 'Blacklist',
 		Tooltip = 'Name of module to hide.',
-		Icon = getcustomasset('newcatvape/assets/new/blockedicon.png'),
-		Tab = getcustomasset('newcatvape/assets/new/blockedtab.png'),
+		Icon = getcustomasset('dogvape/assets/new/blockedicon.png'),
+		Tab = getcustomasset('dogvape/assets/new/blockedtab.png'),
 		TabSize = UDim2.fromOffset(21, 16),
 		Color = Color3.fromRGB(250, 50, 56),
 		Function = function()
@@ -6389,7 +6389,7 @@ local init: () -> table = function()
 	VapeLogo.BorderSizePixel = 0
 	VapeLogo.Visible = false
 	VapeLogo.BackgroundColor3 = Color3.new()
-	VapeLogo.Image = getcustomasset('newcatvape/assets/new/textvape.png')
+	VapeLogo.Image = getcustomasset('dogvape/assets/new/textvape.png')
 	VapeLogo.Parent = textgui.Children
 	
 	local lastside = textgui.Children.AbsolutePosition.X > (gui.AbsoluteSize.X / 2)
@@ -6411,7 +6411,7 @@ local init: () -> table = function()
 	VapeLogoV4.BackgroundColor3 = Color3.new()
 	VapeLogoV4.BackgroundTransparency = 1
 	VapeLogoV4.BorderSizePixel = 0
-	VapeLogoV4.Image = getcustomasset('newcatvape/assets/new/textv4.png')
+	VapeLogoV4.Image = getcustomasset('dogvape/assets/new/textv4.png')
 	VapeLogoV4.Parent = VapeLogo
 	local VapeLogoShadow = VapeLogo:Clone()
 	VapeLogoShadow.Position = UDim2.fromOffset(1, 1)
@@ -6588,7 +6588,7 @@ local init: () -> table = function()
 	local enabled = false
 	spotifyobj = mainapi:CreateOverlay({
 		Name = "Spotify Display",
-		Icon = getcustomasset("newcatvape/assets/new/spotify.png"),
+		Icon = getcustomasset("dogvape/assets/new/spotify.png"),
 		Size = UDim2.fromOffset(14, 14),
 		Position = UDim2.fromOffset(12, 12),
 		CategorySize = 279,
@@ -6598,7 +6598,7 @@ local init: () -> table = function()
 				if #spotifyrefreshtoken.Value < 5 then
 					notif("Spotify Display", "No refresh token!", 10, "alert")
 				else
-					writefile("newcatvape/profiles/spotify.txt", spotifyrefreshtoken.Value)
+					writefile("dogvape/profiles/spotify.txt", spotifyrefreshtoken.Value)
 				end
 				if isfile("label.png") then
 					delfile("label.png")
@@ -6631,10 +6631,10 @@ local init: () -> table = function()
 							
 							if song ~= data.song.name then
 								song = data.song.name
-								local path = "newcatvape/assets/trash/"..data.song.name
+								local path = "dogvape/assets/trash/"..data.song.name
 								path = path.." "..data.song.artist..".png"
 								print(path)
-								makefolder("newcatvape/assets/trash")
+								makefolder("dogvape/assets/trash")
 								writefile(path, game:HttpGet(data.song.cover))
 								spotifyshot.Image = getcustomasset(path)
 							end
@@ -6649,9 +6649,9 @@ local init: () -> table = function()
 	spotifyrefreshtoken = spotifyobj:CreateTextBox({
 		Name = "Refresh Token",
 		Placeholder = "Spotify Refresh Token",
-		Default = isfile("newcatvape/profiles/spotify.txt") and readfile("newcatvape/profiles/spotify.txt") or nil,
+		Default = isfile("dogvape/profiles/spotify.txt") and readfile("dogvape/profiles/spotify.txt") or nil,
 		Function = function(b)
-			if b then writefile("newcatvape/profiles/spotify.txt", spotifyrefreshtoken.Value) end
+			if b then writefile("dogvape/profiles/spotify.txt", spotifyrefreshtoken.Value) end
 			if spotifyobj.Enabled and b then
 				spotifyobj:Toggle()
 				spotifyobj:Toggle()
@@ -6751,7 +6751,7 @@ local init: () -> table = function()
 	local targetinfofollow
 	targetinfoobj = mainapi:CreateOverlay({
 		Name = 'Target Info',
-		Icon = getcustomasset('newcatvape/assets/new/targetinfoicon.png'),
+		Icon = getcustomasset('dogvape/assets/new/targetinfoicon.png'),
 		Size = UDim2.fromOffset(14, 14),
 		Position = UDim2.fromOffset(12, 14),
 		CategorySize = 240,
@@ -7350,7 +7350,7 @@ for _: number = 1, 4 do
 		gui = res;
 		break;
 	elseif not suc and _ == 4 then
-		error('Cat: Failed to load "newcatvape/gui/new.lua" | '.. res);
+		error('Cat: Failed to load "dogvape/gui/new.lua" | '.. res);
 	end;
 	task.wait(0.1);
 end;
