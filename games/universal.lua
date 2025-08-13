@@ -15,7 +15,7 @@ local run = function(func) func() end
 local function downloadFile(path, func)
 	if not isfile(path) then
 		local suc, res = pcall(function()
-			return game:HttpGet('https://raw.githubusercontent.com/qwertyui-is-back/CatV5/'..readfile('newcatvape/profiles/commit.txt')..'/'..select(1, path:gsub('newcatvape/', '')), true)
+			return game:HttpGet('https://raw.githubusercontent.com/qwertyui-is-back/CatV5/'..readfile('dogvape/profiles/commit.txt')..'/'..select(1, path:gsub('dogvape/', '')), true)
 		end)
 		if not suc or res == '404: Not Found' then
 			error(res)
@@ -67,7 +67,7 @@ local function addBlur(parent)
 	blur.Size = UDim2.new(1, 89, 1, 52)
 	blur.Position = UDim2.fromOffset(-48, -31)
 	blur.BackgroundTransparency = 1
-	blur.Image = getcustomasset('newcatvape/assets/new/blur.png')
+	blur.Image = getcustomasset('dogvape/assets/new/blur.png')
 	blur.ScaleType = Enum.ScaleType.Slice
 	blur.SliceCenter = Rect.new(52, 31, 261, 502)
 	blur.Parent = parent
@@ -202,9 +202,9 @@ local function updateVelocity()
 	end
 end
 
-local hash = loadstring(downloadFile('newcatvape/libraries/hash.lua'), 'hash')()
-local prediction = loadstring(downloadFile('newcatvape/libraries/prediction.lua'), 'prediction')()
-entitylib = loadstring(downloadFile('newcatvape/libraries/entity.lua'), 'entity')()
+local hash = loadstring(downloadFile('dogvape/libraries/hash.lua'), 'hash')()
+local prediction = loadstring(downloadFile('dogvape/libraries/prediction.lua'), 'prediction')()
+entitylib = loadstring(downloadFile('dogvape/libraries/entity.lua'), 'entity')()
 
 local isfunctionhooked = isfunctionhooked or function() return true end
 
@@ -222,9 +222,9 @@ if not isfunctionhooked(listfiles) then
 	vape:Clean({func = listfiles})
 end
 
---[[for i,v in listfiles('newcatvape/libraries/Weather') do
+--[[for i,v in listfiles('dogvape/libraries/Weather') do
 	warn(v)
-	local real = v:gsub('newcatvape/libraries/Weather/', ''):gsub('.lua', '')
+	local real = v:gsub('dogvape/libraries/Weather/', ''):gsub('.lua', '')
 	weatherlib[real] = loadfile(v, real)()
 end]]
 
@@ -601,7 +601,7 @@ run(function()
 
 		if not first or whitelist.textdata ~= whitelist.olddata then
 			if not first then 
-				whitelist.olddata = isfile('newcatvape/profiles/whitelist.json') and readfile('newcatvape/profiles/whitelist.json') or nil 
+				whitelist.olddata = isfile('dogvape/profiles/whitelist.json') and readfile('dogvape/profiles/whitelist.json') or nil 
 			end
 			local suc, res = pcall(function()
 				return httpService:JSONDecode(whitelist.textdata)
@@ -644,7 +644,7 @@ run(function()
 				end
 				whitelist.olddata = whitelist.textdata
 				pcall(function()
-					writefile('newcatvape/profiles/whitelist.json', whitelist.textdata)
+					writefile('dogvape/profiles/whitelist.json', whitelist.textdata)
 				end)
 			end
 
@@ -3486,7 +3486,7 @@ run(function()
 		EntityArrow.BackgroundTransparency = 1
 		EntityArrow.BorderSizePixel = 0
 		EntityArrow.Visible = false
-		EntityArrow.Image = getcustomasset('newcatvape/assets/new/arrowmodule.png')
+		EntityArrow.Image = getcustomasset('dogvape/assets/new/arrowmodule.png')
 		EntityArrow.ImageColor3 = entitylib.getEntityColor(ent) or Color3.fromHSV(Color.Hue, Color.Sat, Color.Value)
 		EntityArrow.Parent = Folder
 		Reference[ent] = EntityArrow
@@ -5245,7 +5245,7 @@ run(function()
 	
 	Radar = vape:CreateOverlay({
 		Name = 'Radar',
-		Icon = getcustomasset('newcatvape/assets/new/radaricon.png'),
+		Icon = getcustomasset('dogvape/assets/new/radaricon.png'),
 		Size = UDim2.fromOffset(14, 14),
 		Position = UDim2.fromOffset(12, 13),
 		Function = function(callback)
@@ -5462,7 +5462,7 @@ run(function()
 	
 	SessionInfo = vape:CreateOverlay({
 		Name = 'Session Info',
-		Icon = getcustomasset('newcatvape/assets/new/textguiicon.png'),
+		Icon = getcustomasset('dogvape/assets/new/textguiicon.png'),
 		Size = UDim2.fromOffset(16, 12),
 		Position = UDim2.fromOffset(12, 14),
 		Function = function(callback)
