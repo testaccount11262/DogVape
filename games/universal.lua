@@ -15,7 +15,7 @@ local run = function(func) func() end
 local function downloadFile(path, func)
 	if not isfile(path) then
 		local suc, res = pcall(function()
-			return game:HttpGet('https://raw.githubusercontent.com/qwertyui-is-back/CatV5/'..readfile('dogvape/profiles/commit.txt')..'/'..select(1, path:gsub('dogvape/', '')), true)
+			return game:HttpGet('https://raw.githubusercontent.com/testaccount11262/DogVape/'..readfile('dogvape/profiles/commit.txt')..'/'..select(1, path:gsub('dogvape/', '')), true)
 		end)
 		if not suc or res == '404: Not Found' then
 			error(res)
