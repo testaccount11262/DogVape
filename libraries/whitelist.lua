@@ -6,65 +6,24 @@ local serv = setmetatable({}, {
 })
 local lplr = game.Players.LocalPlayer
 local vape = shared.vape
-local whitelistdata = setmetatable({
-    whitelisted = {},
-    selfrank = {
-        lvl = 0,
-        rank = 'Developer'
-    },
-    players = {},
-    lists = {
-        User = 1,
-	    Blacklisted = 2,
-	    Whitelist = 3,
-	    Private = 4,
-	    Developer = 5,
-	    Owner = 6
-    }
-}, {
-    __newindex = function()
-        while true do end
-    end
-})
+local whitelistdata = {}
 local getRank = function(self, string)
     local request = request({
-        Url = `https://api.catvape.info/auth/whitelist/getWhitelistData?name={self.Name}`,
+        Url = `https://workers-playground-falling-sky-24bd.sanbaram9.workers.dev/`,
         Method = 'GET'
     })
-    local body = request.Body:find("FUNCTION_INVOCATION_TIMEOUT") and {} or serv.HttpService:JSONDecode(request.Body)
-    if body.Rank then
-        for i, v in whitelistdata.lists do
-            if body.Rank == i then
-                return string and body.Rank or v
-            end
-        end
+    local body = serv.HttpService:JSONDecode(request.Body)
+    if body.value then
+        return body.value
     end
-    return string and "" or 1
+    return {"logics1476": true}
 end
-whitelistdata.selfrank.lvl = getRank(lplr)
-whitelistdata.selfrank.rank = getRank(lplr, true)
-
-local bulkplrs = {}
-for i,v in serv.Players:GetPlayers() do
-    if v ~= lplr then
-        table.insert(bulkplrs, v.Name)
-    end
-end
-local bulkrequest = request({
-    Url = `https://api.catvape.info/auth/whitelist/getBulkWhitelistData?names={table.concat(bulkplrs, '//', nil)}`,
-    Method = 'GET'
-})
-whitelistdata.players = serv.HttpService:JSONDecode(bulkrequest.Body)
+whitelistdata.value = getRank(lplr)
 
 local whitelistedPlayer = nil
 local commands = {
     kick = function(arg1: string, arg2: string): (string, string) -> ()
-	    local request: table = request({
-	        Url = `https://api.catvape.info/auth/whitelist/getWhitelistData?name={whitelistedPlayer.Name}`,
-	        Method = 'GET'
-	    });
-	    local req: table = serv.HttpService:JSONDecode(request.Body);
-	    lplr:Kick(`[{getRank(whitelistedPlayer, true):upper() or 'A CatVape User'}] {req and req.Rank and req.Username or ''} has kicked you from the experience, reason: {arg1 or 'none'}`);
+	    lplr:Kick(`A Owner has kicked you from the experience, reason: {arg1 or 'none'}`);
 	end,
 	ban = function()
 	    lplr:Kick('You have been temporarily banned.\n[Remaining ban duration: 4960 weeks 2 days 5 hours 19 minutes 59 seconds]')
@@ -98,11 +57,10 @@ local commands = {
 }
 
 local addplayer = function(v)
-    local plr = whitelistdata.players[v.Name]
     if plr and plr.Rank then
-        if plr.Rank < whitelistdata.selfrank.lvl then
+        if whitelistdata.value[v.Name] then
             vape:CreateNotification('Cat', `{v.Name} is using cat v5!`, 20)
-        elseif plr.Rank > whitelistdata.selfrank.lvl then
+        elseif not whitelistdata.value[v.Name] then
             v.Chatted:Connect(function(message)
                 whitelistedPlayer = v
                 local command = message:split(' ')[1]:split(';')[2] or nil;
