@@ -1,2 +1,2 @@
 > [!WARNING]
-> Original credits go to Xylex (7GrandDadPGN on GitHub) for Vape V4.
+> Original credits go to Xylex (7GrandDadPGN on GitHub) for Vape V4, new-qwertyui's catvape.
