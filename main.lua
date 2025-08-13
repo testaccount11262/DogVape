@@ -36,7 +36,7 @@ local playersService = cloneref(game:GetService('Players'))
 local function downloadFile(path, func)
 	if not isfile(path) then
 		local suc, res = pcall(function()
-			return game:HttpGet('https://raw.githubusercontent.com/testaccount11262/DogVape/'..readfile('newcatvape/profiles/commit.txt')..'/'..select(1, path:gsub('newcatvape/', '')), true)
+			return game:HttpGet('https://raw.githubusercontent.com/testaccount11262/DogVape/'..readfile('dogvape/profiles/commit.txt')..'/'..select(1, path:gsub('dogvape/', '')), true)
 		end)
 		if not suc or res == '404: Not Found' then
 			error(res)
@@ -65,14 +65,14 @@ local function finishLoading()
 			teleportedServers = true
 			local teleportScript = [[
 				shared.VapeDeveloper = true
-				loadfile('newcatvape/init.lua')({
+				loadfile('dogvape/init.lua')({
 					Developer = false
 				})
 			]]
 			if getgenv().catvapedev then
 				teleportScript = [[
 					shared.VapeDeveloper = true
-					loadfile('newcatvape/init.lua')({
+					loadfile('dogvape/init.lua')({
 						Developer = true
 					})
 				]]
@@ -93,28 +93,28 @@ local function finishLoading()
 	end
 end
 
-if not isfile('newcatvape/profiles/gui.txt') then
-	writefile('newcatvape/profiles/gui.txt', 'new')
+if not isfile('dogvape/profiles/gui.txt') then
+	writefile('dogvape/profiles/gui.txt', 'new')
 end
-local gui = readfile('newcatvape/profiles/gui.txt')
+local gui = readfile('dogvape/profiles/gui.txt')
 
-if not isfolder('newcatvape/assets/'..gui) then
-	makefolder('newcatvape/assets/'..gui)
+if not isfolder('dogvape/assets/'..gui) then
+	makefolder('dogvape/assets/'..gui)
 end
-vape = loadstring(downloadFile('newcatvape/guis/'..gui..'.lua'), 'gui')()
+vape = loadstring(downloadFile('dogvape/guis/'..gui..'.lua'), 'gui')()
 shared.vape = vape
 
 if not shared.VapeIndependent then
-	loadstring(downloadFile('newcatvape/games/universal.lua'), 'universal')()
-	if isfile('newcatvape/games/'..game.PlaceId..'.lua') then
-		loadstring(readfile('newcatvape/games/'..game.PlaceId..'.lua'), tostring(game.PlaceId))(...)
+	loadstring(downloadFile('dogvape/games/universal.lua'), 'universal')()
+	if isfile('dogvape/games/'..game.PlaceId..'.lua') then
+		loadstring(readfile('dogvape/games/'..game.PlaceId..'.lua'), tostring(game.PlaceId))(...)
 	else
 		if not shared.VapeDeveloper then
 			local suc, res = pcall(function()
-				return game:HttpGet('https://raw.githubusercontent.com/testaccount11262/DogVape/'..readfile('newcatvape/profiles/commit.txt')..'/games/'..game.PlaceId..'.lua', true)
+				return game:HttpGet('https://raw.githubusercontent.com/testaccount11262/DogVape/'..readfile('dogvape/profiles/commit.txt')..'/games/'..game.PlaceId..'.lua', true)
 			end)
 			if suc and res ~= '404: Not Found' then
-				loadstring(downloadFile('newcatvape/games/'..game.PlaceId..'.lua'), tostring(game.PlaceId))(...)
+				loadstring(downloadFile('dogvape/games/'..game.PlaceId..'.lua'), tostring(game.PlaceId))(...)
 			end
 		end
 	end
